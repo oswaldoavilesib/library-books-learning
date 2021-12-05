@@ -1,0 +1,9 @@
+<h1>BOOKS</h1>
+
+{{#each books}}
+    <div>
+        <h3>{{title}}</h3>
+        <p>By:{{author}}</p>
+        <a href="/books/{{_id}}">See detail</a>
+    </div>
+{{/each}}
